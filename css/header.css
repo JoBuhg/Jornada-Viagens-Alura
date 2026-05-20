@@ -44,3 +44,26 @@ nav {
     text-decoration: none;
     font-family: var(--);
 }
+
+@media screen and (min-width: 768px) {
+    .navgation-menu {
+        margin-top: 0;
+        width: 467px;
+    }
+
+    .navgation-menu label {
+        display: none;
+    }
+
+    .navgation-menu ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0;
+    }
+
+    .navgation-menu nav {
+        display: block;
+
+    }
+}
