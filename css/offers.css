@@ -34,6 +34,26 @@
     display: inline-block;
 }
 
+.card.japao {
+    background: url(../imgs/bg-card-japao.jpg) no-repeat;
+    background-size: cover;
+}
+
+.card.san-andreas {
+    background: url(../imgs/bg-card-san-andreas.jpg) no-repeat;
+    background-size: cover;
+}
+
+.card.paraiba {
+    background: url(../imgs/bg-card-paraiba.jpg) no-repeat;
+    background-size: cover;
+}
+
+.card.manaus {
+    background: url(../imgs/bg-card-manaus.jpg) no-repeat;
+    background-size: cover;
+}
+
 @media screen and (min-width: 1024px) {
     .card {
         width: 588px;
@@ -51,3 +71,4 @@
     .card header span {
         font-size: 40px;
     }
+}
