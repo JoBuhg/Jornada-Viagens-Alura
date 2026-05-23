@@ -29,7 +29,7 @@
     font-weight: var(--text-weight);
 }
 
-.card header h3 {
+.offers-cards .card header h3 {
     font-size: 40px;
     font-weight: var(--title-weight);
     margin: 8px 0 0;
@@ -46,7 +46,7 @@
     background-size: cover;
 }
 
-.card.san-andreas {
+.offers-cards .card.san-andreas {
     background: url(../imgs/bg-card-san-andreas.jpg) no-repeat;
     background-size: cover;
 }
@@ -56,13 +56,13 @@
     background-size: cover;
 }
 
-.card.manaus {
+.offers-cards .card.manaus {
     background: url(../imgs/bg-card-manaus.jpg) no-repeat;
     background-size: cover;
 }
 
 @media screen and (min-width: 768px) {
-    .offers-cards .offers-cards {
+    .offers-cards {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
@@ -75,7 +75,7 @@
         height: 308px;
     }
 
-    .card header p {
+    .offers-cards .card header p {
         font-size: 24px;
     }
 
